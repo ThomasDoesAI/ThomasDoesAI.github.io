@@ -7,18 +7,18 @@ title: Home
 
 This site showcases my journey and projects in Machine Learning and Artificial Intelligence. Below are some of my key projects.
 
+<h2>Projects Collection:</h2>
+<ul>
 {% for project in site.projects %}
-- **Project Title:** {{ project.title }}
-- **Project URL:** {{ project.url }}
-- **Project Excerpt:** {{ project.excerpt }}
-{% endfor %}
-
-<!-- Additional debug info -->
-{% for project in site.projects %}
-  <div>
-    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-    <p>{{ project.content | truncatewords: 30 }}</p>
-  </div>
+  <li>{{ project.title }} - {{ project.url }}</li>
 {% else %}
-  <p>No projects found. Ensure projects have the correct front matter and are located in the projects directory.</p>
+  <li>No projects found. Ensure projects have the correct front matter and are located in the projects directory.</li>
 {% endfor %}
+</ul>
+
+<h2>All Site Collections:</h2>
+<ul>
+{% for collection in site.collections %}
+  <li>{{ collection.label }}: {{ collection.docs | size }} items</li>
+{% endfor %}
+</ul>
