@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "MNIST Digit Recognizer"
 date: 2024-06-23
 ---
