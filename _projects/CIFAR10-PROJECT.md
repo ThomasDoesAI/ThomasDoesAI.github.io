@@ -2,6 +2,7 @@
 layout: post
 title: "CIFAR10 Image Classifier"
 type: projects
+author: "Thomas Land"
 ---
 
 ## Overview

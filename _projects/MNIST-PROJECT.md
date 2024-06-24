@@ -2,6 +2,7 @@
 layout: post
 title: "MNIST Digit Recognizer"
 type: projects
+author: "Thomas Land"
 ---
 
 ## Overview
