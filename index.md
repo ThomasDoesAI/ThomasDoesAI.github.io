@@ -9,7 +9,7 @@ This site showcases my journey and projects in Machine Learning and Artificial I
 
 <section class="featured-section">
   <h2>Featured Projects</h2>
-  <p>Explore some of my most prominent work in the field of ML/AI. Click on a project to learn more about its details, technologies used, and the outcomes achieved.</p>
+  <p>Explore some of my work in the field of Machine Learning. Click on a project to learn more about its details, technologies used, and the outcomes achieved.</p>
 </section>
 
 <div class="project-list">
