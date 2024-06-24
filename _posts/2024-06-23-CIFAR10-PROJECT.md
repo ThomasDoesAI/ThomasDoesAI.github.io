@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "CIFAR10 Image Classifier"
 date: 2024-06-23
 ---
