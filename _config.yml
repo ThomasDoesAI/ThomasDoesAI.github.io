@@ -4,9 +4,12 @@ description: A showcase of my Machine Learning and Artificial Intelligence proje
 url: "https://ThomasDoesAI.github.io" # the base hostname & protocol for your site
 markdown: kramdown
 permalink: /:title/
+collections:
+  projects:
+    output: true
 defaults:
   - scope:
       path: "projects"
-      type: "posts"
+      type: "projects"
     values:
       layout: "post"
