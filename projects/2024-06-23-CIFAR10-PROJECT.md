@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CIFAR10 Image Classifier"
-date: 2024-06-23
+type: projects
 ---
 
 ## Overview
