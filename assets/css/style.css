@@ -33,12 +33,12 @@ body, html {
   
   /* Main content area */
   main {
-    margin-bottom: 50px; /* Ensure space between content and footer */
+    margin-bottom: 100px; /* Ensure space between content and footer */
   }
   
   /* Footer styling */
   footer {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -67,10 +67,13 @@ body, html {
     padding: 60px 20px;
     text-align: center;
     margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .featured-section h2 {
     font-size: 2.5rem;
+    margin-bottom: 20px;
   }
   
   .featured-section p {
@@ -81,11 +84,11 @@ body, html {
   /* Card styling for posts */
   .post-card {
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #e2e2e2;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 30px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .post-card h3 {
@@ -110,49 +113,6 @@ body, html {
   }
   
   .btn:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Responsive design for images */
-  .img-responsive {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Centered text */
-  .text-center {
-    text-align: center;
-  }
-  
-  /* Floating social icons */
-  .social-icons {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
-  }
-  
-  .social-icons li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .social-icons li:last-child {
-    margin-right: 0;
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 50%;
-    transition: background-color 0.3s ease;
-  }
-  
-  .social-icons a:hover {
     background-color: #0056b3;
   }
   
