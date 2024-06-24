@@ -6,7 +6,8 @@ markdown: kramdown
 permalink: /:title/
 defaults:
   - scope:
-      path: ""
+      path: "projects"
       type: "posts"
     values:
-      layout: "default"
+      layout: "post"
+
