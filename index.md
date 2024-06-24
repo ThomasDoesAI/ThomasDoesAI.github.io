@@ -7,7 +7,7 @@ title: Home
 
 This site showcases my journey and projects in Machine Learning and Artificial Intelligence. Below are some of my key projects.
 
-{% for post in site.projects %}
-## [{{ post.title }}]({{ post.url }})
-{{ post.excerpt }}
+{% for project in site.projects %}
+## [{{ project.title }}]({{ project.url }})
+{{ project.excerpt }}
 {% endfor %}
