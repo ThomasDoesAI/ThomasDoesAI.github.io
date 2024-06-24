@@ -9,7 +9,7 @@ collections:
     output: true
 defaults:
   - scope:
-      path: "projects"
+      path: "_projects"
       type: "projects"
     values:
       layout: "post"
