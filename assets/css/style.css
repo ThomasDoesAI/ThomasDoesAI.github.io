@@ -119,43 +119,58 @@ body, html {
   /* Example additional styling */
   /* Customize these styles further based on your design preferences */
   
-  /* Navigation bar */
-.navbar {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
+/* Reset default margins and padding */
+body, html {
+    margin: 0;
+    padding: 0;
   }
   
-  .navbar h1 {
+  /* Container for centralized content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation bar */
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
     margin: 0;
   }
   
   /* Navigation links */
-  .nav-links {
+  nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    float: right;
+    text-align: right;
   }
   
-  .nav-links li {
+  nav ul li {
     display: inline-block;
     margin-left: 20px;
   }
   
-  .nav-links li:first-child {
+  nav ul li:first-child {
     margin-left: 0;
   }
   
-  .nav-links a {
+  nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
     font-size: 1.1rem;
+    font-weight: bold;
     transition: opacity 0.3s ease;
   }
   
-  .nav-links a:hover {
+  nav ul li a:hover {
     opacity: 0.8;
   }
+  
   
